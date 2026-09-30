@@ -2,7 +2,7 @@
 
 ## Current Phase
 
-Phase 1 — Foundation
+Phase 2 — Core Domain
 
 ## Completed
 
@@ -15,15 +15,17 @@ Phase 1 — Foundation
 - [x] Configure formatting (Prettier)
 - [x] Configure linting (ESLint)
 - [x] Set up testing foundation (Vitest)
+- [x] Add CI configuration
 
 ## In Progress
 
-- [ ] Add CI configuration
+- [ ] Add Dataset domain model
 
 ## Next
 
-- Add GitHub Actions workflow for CI
-- Begin Phase 2: Core Domain models
+- Add DatasetItem domain model
+- Add EvaluationCase domain model
+- Add ModelProvider domain model
 
 ## Future
 
