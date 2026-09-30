@@ -8,27 +8,22 @@ Phase 1 — Foundation
 
 - [x] Add LICENSE (MIT)
 - [x] Create README.md with project overview
+- [x] Create TASKS.md for task tracking
+- [x] Create basic project structure (src/, tests/, docs/)
+- [x] Add package.json with dependencies
+- [x] Configure TypeScript
+- [x] Configure formatting (Prettier)
+- [x] Configure linting (ESLint)
+- [x] Set up testing foundation (Vitest)
 
 ## In Progress
 
-- [ ] Create TASKS.md for task tracking
-- [ ] Create basic project structure (src/, tests/, docs/)
-- [ ] Add package.json with dependencies
-- [ ] Configure TypeScript
-- [ ] Configure formatting (Prettier)
-- [ ] Configure linting (ESLint)
-- [ ] Set up testing foundation (Vitest)
 - [ ] Add CI configuration
 
 ## Next
 
-- Create basic project directory structure
-- Initialize package.json with TypeScript and testing dependencies
-- Configure TypeScript compiler options
-- Set up Prettier for code formatting
-- Set up ESLint for code quality
-- Configure Vitest for testing
 - Add GitHub Actions workflow for CI
+- Begin Phase 2: Core Domain models
 
 ## Future
 
