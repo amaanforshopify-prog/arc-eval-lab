@@ -2,7 +2,7 @@
 
 ## Current Phase
 
-Phase 2 — Core Domain
+Phase 3 — Datasets
 
 ## Completed
 
@@ -16,29 +16,35 @@ Phase 2 — Core Domain
 - [x] Configure linting (ESLint)
 - [x] Set up testing foundation (Vitest)
 - [x] Add CI configuration
+- [x] Add Dataset domain model
+- [x] Add EvaluationCase domain model
+- [x] Add ModelProvider domain model
+- [x] Add Evaluator domain model
+- [x] Add Metric domain model
+- [x] Add Regression domain model
 
 ## In Progress
 
-- [ ] Add Dataset domain model
+- [ ] Implement dataset schemas
 
 ## Next
 
-- Add DatasetItem domain model
-- Add EvaluationCase domain model
-- Add ModelProvider domain model
+- Add dataset validation
+- Implement dataset loaders
+- Add JSON/JSONL support
+- Implement dataset normalization
 
 ## Future
 
 ### Phase 2 — Core Domain
-- [ ] Add Dataset domain model
-- [ ] Add DatasetItem domain model
-- [ ] Add EvaluationCase domain model
-- [ ] Add ModelProvider domain model
-- [ ] Add Evaluator domain model
-- [ ] Add EvaluationRun domain model
-- [ ] Add EvaluationResult domain model
-- [ ] Add Metric domain model
-- [ ] Add Regression domain model
+- [x] Add Dataset domain model
+- [x] Add EvaluationCase domain model
+- [x] Add ModelProvider domain model
+- [x] Add Evaluator domain model
+- [x] Add EvaluationRun domain model
+- [x] Add EvaluationResult domain model
+- [x] Add Metric domain model
+- [x] Add Regression domain model
 
 ### Phase 3 — Datasets
 - [ ] Implement dataset schemas
