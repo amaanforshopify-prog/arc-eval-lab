@@ -2,7 +2,7 @@
 
 ## Current Phase
 
-Phase 3 — Datasets
+Phase 4 — Providers
 
 ## Completed
 
@@ -22,17 +22,22 @@ Phase 3 — Datasets
 - [x] Add Evaluator domain model
 - [x] Add Metric domain model
 - [x] Add Regression domain model
+- [x] Implement dataset schemas
+- [x] Add dataset validation
+- [x] Implement dataset loaders
+- [x] Add JSON/JSONL support
+- [x] Implement dataset normalization
 
 ## In Progress
 
-- [ ] Implement dataset schemas
+- [ ] Implement provider abstraction
 
 ## Next
 
-- Add dataset validation
-- Implement dataset loaders
-- Add JSON/JSONL support
-- Implement dataset normalization
+- Add mock provider
+- Add deterministic local provider
+- Implement provider configuration
+- Add timeout/error handling
 
 ## Future
 
@@ -47,11 +52,11 @@ Phase 3 — Datasets
 - [x] Add Regression domain model
 
 ### Phase 3 — Datasets
-- [ ] Implement dataset schemas
-- [ ] Add dataset validation
-- [ ] Implement dataset loaders
-- [ ] Add JSON/JSONL support
-- [ ] Implement dataset normalization
+- [x] Implement dataset schemas
+- [x] Add dataset validation
+- [x] Implement dataset loaders
+- [x] Add JSON/JSONL support
+- [x] Implement dataset normalization
 - [ ] Add dataset versioning concepts
 
 ### Phase 4 — Providers
