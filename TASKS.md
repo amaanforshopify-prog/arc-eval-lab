@@ -27,10 +27,13 @@ Phase 4 — Providers
 - [x] Implement dataset loaders
 - [x] Add JSON/JSONL support
 - [x] Implement dataset normalization
+- [x] Implement provider abstraction
+- [x] Add mock provider
+- [x] Add deterministic local provider
 
 ## In Progress
 
-- [ ] Implement provider abstraction
+- [ ] Implement provider configuration
 
 ## Next
 
