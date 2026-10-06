@@ -47,13 +47,13 @@ describe('BaseProvider', () => {
 
     it('should reject on timeout', async () => {
       const provider = new TestProvider();
-      const promise = new Promise((resolve) => setTimeout(resolve, 10000));
+      const promise = new Promise((resolve) => setTimeout(resolve, 100));
       await expect(provider.testWithTimeout(promise, 10)).rejects.toThrow('Request timeout');
     });
 
     it('should use config timeout when not specified', async () => {
       const provider = new TestProvider({ timeout: 50 });
-      const promise = new Promise((resolve) => setTimeout(resolve, 10000));
+      const promise = new Promise((resolve) => setTimeout(resolve, 100));
       await expect(provider.testWithTimeout(promise)).rejects.toThrow('Request timeout');
     });
   });
